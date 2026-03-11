@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kde-display-profiles"
+version = "1.0.0"
+description = "Display profile manager that uses kscreen-doctor to save and load display profiles on KDE Plasma"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Dawson Matthews", email = "dawsonwmatthews@proton.me" }
+]
+dependencies = [
+    "PySide6>=6.4",
+]
+
+[project.scripts]
+kde-display-profiles = "kde_display_profiles:main"
+
+[project.urls]
+Homepage = "https://github.com/Dawsani/KDE-Display-Profiles"
+Issues = "https://github.com/Dawsani/KDE-Display-Profiles/issues"
+
+[tool.setuptools]
+py-modules = ["kde_display_profiles"]

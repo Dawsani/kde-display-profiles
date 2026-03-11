@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=KDE Display Profiles
+GenericName=Display Profile Manager
+Comment=Save and load display profiles using kscreen-doctor
+Exec=kde-display-profiles gui
+Icon=kde-display-profiles
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;Qt;KDE;
+Keywords=display;monitor;profile;kscreen;
